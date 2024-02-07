@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+:root{
+    --cor0: #BF1F2C;
+
+    --font-titulo: 'idroid', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: var(--cor0);
+}
+/*CABEÇALHO*/
+header{
+    background-image: linear-gradient(180deg,#FF293B, #400A0F);
+    color: white;
+    height: 150px;
+    padding-top: 40px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 40px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: .5s;
+}
+nav{
+    padding: 10px;
+    background-color: #400A0F;
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+}
+/*CONTEÚDO*/
+#conteudo{
+    padding: 10px 20px;
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+}
+.seçoes > p{
+    text-align: justify;
+    text-indent: 30px;
+}
+.imagem{
+    display: block;
+    margin: auto;
+
+}
+.nome_importante{
+    font-weight: bold;
+    color: #BF1F2C;
+    text-decoration: underline;
+}
+.link_nome{
+    color: #BF1F2C;
+    font-weight: bold;
+    text-decoration: none;
+}
+.titulo_personalizado{
+    font-family: var(--font-titulo);
+    background-image: linear-gradient(to right, #FF293B, transparent);
+}
+#espaço_video{
+    margin: auto;
+    background-color: #7F151D;
+    max-width: 840px;
+}
+.seçao_listas{
+    margin: auto;
+    background-color: white;
+    max-width: 840px;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 50px;
+}
+.seçao_listas > p{
+    text-indent: 30px;
+}
+.video{
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+.artigo_final{
+    max-width: 750px;
+    background-color: #E52535;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.artigo_final > p{
+    text-indent: 30px;
+}
+.p_final{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 0;
+}
+div ul{
+    display: inline-block;
+    margin: auto;
+}
+ul li{
+    list-style-type: '✔';
+    width: 300px;
+}
+ul li a{
+    color: black;
+}
+.titulo_final{
+    background-color: #400A0F;
+    color: white;
+}
+/*FOOTER*/
+footer{
+    background-color: #400A0F;
+    color: white;
+    text-align: center;
+}

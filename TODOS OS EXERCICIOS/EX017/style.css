@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#some{
+    display: none;
+}
+.passe:hover{
+    color: red;
+}
+.passe:hover > p#some{
+    display: block;
+    color: red;
+
+}
