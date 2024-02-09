@@ -1,0 +1,20 @@
+body{
+    background-image: url(imagens/wallpaper001.jpg);
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid  black;
+}
+#q1{
+    background-color: brown;
+}
+#q2{
+    background-image: linear-gradient(to top, red, black);
+}
+#q3{
+    background-image: url('imagens/pattern004.png');
+}
